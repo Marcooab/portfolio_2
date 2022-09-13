@@ -1,0 +1,149 @@
+*,#container{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 0;  
+}
+
+a{
+    text-decoration: none;
+}
+#container{
+    display: flex;
+    height: 100vh;
+    flex-direction: column; 
+    justify-content: space-between; 
+    background-image: url("./img/bg.webp");
+}
+
+/* TOP */
+.header{
+    display: flex; 
+    justify-content: space-between;
+    padding: 20px; 
+}
+
+header li {
+    display: inline; 
+    padding: 12px; 
+    border-radius: 10px;  
+    margin-right: 8px;
+    margin-left: 8px;
+    font-size: 1.2em;
+    background-color: black;
+    color: white; 
+    box-shadow: 0 0 20px white;  
+    font-family: 'Courier New', Courier, monospace; 
+    text-shadow: 0 0 0.2em #8F7;
+    text-shadow: 0 0 0.2em rgb(119, 255, 235), 0 0 0.2em #F87;
+    text-shadow: 0 0 0.2em rgb(119, 180, 255), 0 0 0.2em rgb(119, 235, 255), 0 0 0.2em #87F;
+    background: none; 
+}  
+
+.menu:hover{
+    background-color: white;
+    color: #194863;
+    padding: 15px; 
+    background: white;
+    box-shadow: 0 0 50px white;
+}
+
+.lamp, .button_lamp{
+    height: 55px;
+    width: 55px;
+    border: 1px solid black;
+    border-radius: 50%;
+    background: none;  
+}
+
+.div_button{
+    border-radius: 50%;
+    background-color:black;
+}
+
+button{
+    display: inline;
+}
+
+ul{
+    margin: 10px; 
+}
+
+.back_medias{
+    background-color: white;
+    border: 1px solid white;
+    box-shadow: 0 0 10px white;
+}
+
+.back_medias{
+    height: 40px; 
+    width: 40px; 
+    border-radius: 50%;
+}
+
+/* MIDDLE */
+.box{
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.paragraphs{
+    color: black; 
+    background-color: white;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.2em;
+    text-align: justify;
+    text-indent: 50px;
+    line-height: 1.1em;
+    padding: 25px;
+    border-radius: 5px; 
+    
+}
+
+.fotos{
+    height: 200px; 
+    width: 200px;
+    margin: 20px; 
+    border: solid 1px white;
+    border-radius: 5px;
+}
+
+.box_par{
+    border: solid 3px black;
+}
+
+/*BOTTOM*/
+.footer{
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    padding: 10px; 
+    color: white; 
+}
+
+.webdev{
+    background-color: black;
+    font-family: 'Courier New', Courier, monospace;
+    color: white; 
+    text-shadow: 0 0 0.2em #8F7;
+    text-shadow: 0 0 0.2em rgb(119, 255, 235), 0 0 0.2em #F87;
+    text-shadow: 0 0 0.2em rgb(119, 180, 255), 0 0 0.2em rgb(119, 235, 255), 0 0 0.2em #87F; 
+    
+}
+
+
+
+
+
+
+
+
+
+  
+
+
+
+

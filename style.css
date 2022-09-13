@@ -1,0 +1,173 @@
+
+/* Geral */
+
+*,#container{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 0;
+    background-color:#B8D0D9;
+}
+a{
+    text-decoration: none;
+}
+#container{
+    display: flex;
+    height: 100vh;
+    flex-direction: column; 
+    justify-content: space-between;
+}
+
+/* TOP */
+.header{
+    display: flex; 
+    justify-content: space-between;
+    padding: 20px; 
+}
+ul{
+    border: solid 1px white;
+    margin: 10px; 
+}
+
+.lamp, .button_lamp{
+    height: 55px;
+    width: 55px;
+    border: 1px solid black;
+    border-radius: 50%;
+    
+}
+
+header li {
+    display: inline; 
+    background-color: #4C4A59;
+    padding: 12px; 
+    color: white;
+    border-radius: 5px; 
+    border: 1px solid white; 
+    margin-right: 8px;
+    margin-left: 8px;
+    font-size: 1.1em;
+    font-family: 'DynaPuff', cursive;  
+    
+}  
+
+
+
+.div_button{
+    border-radius: 50%;
+    background-color:#B8D0D9;
+}
+li:hover{
+    background-color: white;
+    color: #194863;
+    padding: 15px; 
+    background: white;
+    box-shadow: 0 0 50px white;
+    border: #194863 dashed 1px;
+
+}
+button{
+    display: inline;
+}
+img{
+    height: 45px; 
+    width: 45px; 
+    border-radius: 50%;
+}
+
+/* MIDDLE */
+.corpo{
+    display: flex; 
+    justify-content: space-around;
+    align-items: center;
+    flex-grow: 1;
+    font-family: 'Lobster', cursive;
+}
+
+.skills_img{
+    display: flex; 
+    flex-wrap: wrap;
+    flex-basis: 1;
+}
+
+.skills{
+    display: inline;
+    margin: 10px; 
+    
+}
+
+article div a img{
+    border: black 1px solid;
+}
+h1{
+    font-size: 3em;  
+    color: #3D5A73; 
+}
+
+
+strong{
+    color:#194863; 
+    font-size: 1.3em;
+    font-weight: bold;
+}
+.img_flag{
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    font-family: 'DynaPuff', cursive; 
+    font-style: italic;
+}
+
+.flag{
+    height: 15px;
+    width: 15px; 
+    margin-top: 3px; 
+}
+
+span{
+    font-size: 1.1em;
+    color:#194863;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.img_corpo{
+    border-radius: 50%; 
+    border: solid 2px #194863;
+    height: 370px; 
+    width:370px; 
+    margin: 10px;
+}
+
+.medias_contact:hover{
+    background-color: white;
+    border-radius: 50%;
+}
+
+
+
+
+/*BOTTOM*/
+.footer{
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    padding: 10px; 
+    background-color: #194863;
+    color: white;    
+}
+
+
+
+.webdev{
+    background-color: #194863;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold; 
+}
+
+.marco{
+    background-color: #194863;
+    font-size: 1em;
+    color: white;
+    font-weight: normal;
+    text-transform: capitalize;
+}

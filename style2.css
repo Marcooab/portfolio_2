@@ -1,0 +1,234 @@
+/* Geral */
+*,#container{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 0;
+    background-image: url("./img/bg.webp")
+}
+a{
+    text-decoration: none;
+}
+#container{
+    display: flex;
+    height: 100vh;
+    flex-direction: column; 
+    justify-content: space-between; 
+}
+
+
+
+/* TOP */
+.header{
+    display: flex; 
+    justify-content: space-between;
+    padding: 20px;   
+}
+
+ul{
+    margin: 10px; 
+}
+
+.lamp, .button_lamp{
+    height: 55px;
+    width: 55px;
+    border: 1px solid black;
+    border-radius: 50%;  
+}
+
+.button_lamp:hover{
+    box-shadow: 0 0 10px red;
+}
+
+header li {
+    display: inline; 
+    padding: 12px; 
+    border-radius: 10px;  
+    margin-right: 8px;
+    margin-left: 8px;
+    font-size: 1.2em;
+    background-color: black;
+    color: white; 
+    box-shadow: 0 0 20px white;  
+    font-family: 'Courier New', Courier, monospace; 
+    text-shadow: 0 0 0.2em #8F7;
+    text-shadow: 0 0 0.2em rgb(119, 255, 235), 0 0 0.2em #F87;
+    text-shadow: 0 0 0.2em rgb(119, 180, 255), 0 0 0.2em rgb(119, 235, 255), 0 0 0.2em #87F;
+    background: none; 
+}  
+
+li:hover{
+    background-color: white;
+    color: #194863;
+    padding: 15px; 
+    background: white;
+    box-shadow: 0 0 50px white;
+}
+
+.back_medias{
+    box-shadow: 0 0 10px white;
+    border: solid 1px white; 
+}
+
+.back_medias:hover{
+    box-shadow: 0 0 50px white;
+    border: 1px solid white; 
+}
+
+.div_button{
+    border-radius: 50%; 
+}
+
+.box_media{
+    outline: none; 
+    background: none;
+}
+
+.medias_contact{
+    background: none;
+}
+
+.medias_contact:hover{
+    background-color: white;
+    border-radius: 50%;
+}
+
+button{
+    display: inline;
+}
+img{
+    height: 40px; 
+    width: 40px; 
+    border-radius: 50%;
+}
+
+
+
+/* MIDDLE */
+.corpo{
+    display: flex; 
+    justify-content: space-around;
+    align-items: center;
+    flex-grow: 1;
+    font-family: 'Lobster', cursive;
+    flex-shrink: 1;
+}
+
+.skills_img{
+    display: flex; 
+    flex-wrap: wrap;
+    flex-basis: 1;
+    outline: none; 
+    background: none;   
+}
+
+.skills{
+    display: inline;
+    outline: none; 
+    background: none; 
+    padding: 10px;   
+}
+
+article div a img{
+    border: 1px solid white;
+    box-shadow: 0 0 10px white;
+}
+
+.text_body{
+    font-size: 3em;  
+    color: white; 
+    outline: none; 
+    background: none;
+    font-family: 'Silkscreen', cursive;
+    text-shadow: 0 0 0.2em #8F7;
+    text-shadow: 0 0 0.2em rgb(119, 255, 235), 0 0 0.2em #F87;
+    text-shadow: 0 0 0.2em rgb(119, 180, 255), 0 0 0.2em rgb(119, 235, 255), 0 0 0.2em #87F;
+}
+
+.img_flag > p{
+    font-family: 'Courier New', Courier, monospace;
+    color: white; 
+    text-shadow: 0 0 0.2em #8F7;
+    text-shadow: 0 0 0.2em rgb(119, 255, 235), 0 0 0.2em #F87;
+    text-shadow: 0 0 0.2em rgb(119, 180, 255), 0 0 0.2em rgb(119, 235, 255), 0 0 0.2em #87F;
+    background: none;    
+}
+
+strong{
+    font-size: 1.5em;
+    font-weight: bold;
+}
+.img_flag{
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    font-family: 'DynaPuff', cursive; 
+    font-style: italic;
+    outline: none;
+    background: none;
+}
+
+
+.tag{
+    color: white;
+    outline: none; 
+    background: none;
+    font-size: 1.2em;
+}
+
+.flag{
+    height: 15px;
+    width: 15px; 
+    margin-top: 3px; 
+}
+
+span{
+    font-size: 1.2em;
+    color:#213a96 ;
+    font-weight: bold;
+    outline: none; 
+    background: none;
+    
+    text-transform: uppercase;
+    text-shadow: 0 0 0.4em white;
+    text-shadow: 0 0 0.4em rgb(119, 255, 235), 0 0 0.2em #F87;
+    text-shadow: 0 0 0.4em rgb(119, 180, 255), 0 0 0.2em rgb(119, 235, 255), 0 0 0.2em #87F;
+}
+
+
+.img_corpo{
+    border-radius: 50%; 
+    border: ridge 4px white;
+    height: 370px; 
+    width:370px; 
+    margin: 20px;
+    box-shadow: 0 0 25px white;
+}
+
+
+
+/*BOTTOM*/
+.footer{
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    padding: 10px; 
+    background-color: black;
+    color: white; 
+    outline: none; 
+    background: none;
+}
+
+.webdev{
+    background-color: black;
+    font-family: 'Courier New', Courier, monospace;
+    color: white; 
+    text-shadow: 0 0 0.2em #8F7;
+    text-shadow: 0 0 0.2em rgb(119, 255, 235), 0 0 0.2em #F87;
+    text-shadow: 0 0 0.2em rgb(119, 180, 255), 0 0 0.2em rgb(119, 235, 255), 0 0 0.2em #87F;    
+}
+
+.marco{
+    font-size: 1em;
+    font-style: italic;
+}
